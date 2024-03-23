@@ -24,7 +24,6 @@
     />
         <title>Square Eyes - contact</title>
         <link rel="stylesheet" href="../src/css/styles.css">
-        <script src="script.js" defer></script>
       </head>
 <body>
     <header>
@@ -38,7 +37,7 @@
                         <li><a href="../">HOME</a></li>
                         <li><a href="../films">FILMS</a></li>
                         <li><a href="../about">ABOUT</a></li>
-                        <li>CONTACT</li>
+                        <li><a href="../contact">CONTACT</a></li>
                         <li><a href="../bookmarks/">BOOKMARKS</a></li>
                     </ul>
                 </div>
@@ -56,8 +55,8 @@
                             />
                           </div>
                         </li>
-                        <li><a href="../account/register.html" class="btn">CREATE ACCOUNT</a></li>
-                        <li><a href="../login.html" class="btn">SIGN IN</a></li>
+                        <li><a href="#" class="btn">CREATE ACCOUNT</a></li>
+                        <li><a href="login.html" class="btn">SIGN IN</a></li>
                         <li><span class="mdi--cart"></span></li>  
                     </ul>
                 </div>
@@ -82,31 +81,25 @@
 
 
 
-    <!-- Contact -->
+<!-- Contact -->
 
-<div class="section">
-    <div class="contact-container">
-        <div class="form-container">
-            <h1>GET IN TOUCH</h1>
-            <p>Anything on your mind? Get in touch with us. Our costumer service is always here for you and we are looking forward to hear from you. Fill out the form and we will get back to you as soon as possible.</p>
-            <form action="" class="contact-form">
-                <input type="name" placeholder="Name" required>
-                <input type="street" placeholder="Street">
-                <div class="form-group">
-                <input type="city" placeholder="City" class="city">
-                <input type="postcode" placeholder="Postcode" class="postcode">
-                </div>
-                <input type="country" placeholder="Country">
-                <input type="email" name="" id="" placeholder="Email" required>
-                <textarea rows="20" cols="50" placeholder="What's on your mind?"></textarea>
-                <input type="submit" value="SUBMIT" class="send-button">
-            </form>
-        </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.6260519035723!2d10.733937613274264!3d59.92175327480194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7bd3b1480b%3A0x6a9bab2eba915207!2sSofies%20gate%205%2C%200170%20Oslo!5e0!3m2!1sno!2sno!4v1709850823827!5m2!1sno!2sno" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
+
+<div class="register-container">
+    <h1>REGISTER</h1>
+    <form action="" class="register-form">
+        <label for="firstname">First name</label>
+        <input type="firstname" placeholder="Enter your first name" required>
+        <label for="surname">Surname</label>
+        <input type="surname" placeholder="Enter your surname" required>
+        <label for="email">Email</label>
+        <input type="email" name="" id="" placeholder="Email" required>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter your password" required>
+        <input type="submit" value="SUBMIT" class="send-button">
+    </form>
+    <a href="login.html">Already have an account?</a>
 </div>
+
 
     
 <!--Footer-->

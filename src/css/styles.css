@@ -1461,3 +1461,71 @@ textarea::placeholder {
     min-width: 105px;
   }
 }
+
+/* register */
+
+.register-container {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.register-container a{
+  color: #ffffff;
+}
+
+.register-container .register-form {
+  padding: 20px;
+  display: grid;
+  row-gap: 8px;
+}
+
+.register-container h1 {
+  margin-top: 0;
+  font-size: 70px;
+  color: #fe0202;
+  text-align: center;
+}
+
+.register-container .register-form input {
+  width: 600px;
+  border-color: #fe0202;
+  border-width: 3px;
+  border-radius: 10px;
+  height: 40px;
+  color: #aa0000;
+}
+
+.register-container .register-form .send-button {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  height: 50px;
+  background: #fe0202;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 964px) {
+  .register-container .register-form input {
+    width: 500px;
+  }
+  .register-container h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .register-container .register-form input {
+    width: 280px;
+  }
+  .register-container h1 {
+    font-size: 45px;
+  }
+}
