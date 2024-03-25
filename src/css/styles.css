@@ -1328,6 +1328,10 @@ textarea::placeholder {
   border-radius: 20px;
 }
 
+.genre-column, a:link, a:visited {
+  text-decoration: none;
+}
+
 .genre-column img {
   width: 200px;
   height: 200px;
