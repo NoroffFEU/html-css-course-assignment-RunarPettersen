@@ -1482,6 +1482,13 @@ textarea::placeholder {
   border-radius: 1rem;
 }
 
+.category-row .category-column > a img {
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 1rem;
+}
+
 .bookmark-headers h1 {
   font-size: 70px;
 }
