@@ -957,6 +957,20 @@ footer .links {
   text-align: center;
 }
 
+.btn2 {
+  padding: 4px 16px;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #fe0202;
+  display: inline-block;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #aa0000;
+}
+
 @media screen and (max-width: 1024px) {
   .film-row .film-column {
     flex: 50%;
