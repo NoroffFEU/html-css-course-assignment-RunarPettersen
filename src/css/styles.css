@@ -199,7 +199,7 @@ nav .buttons-header {
 
 /* Mobile Header */
 
-.header2 {
+.header-small {
   height: 90px;
 }
 
@@ -457,8 +457,8 @@ nav .buttons-header {
 .header2 {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc(var(--img-gap) * 2 + var(--handle-size));
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .kategori {
@@ -466,11 +466,15 @@ nav .buttons-header {
   font-family: "outfit", sans-serif;
   margin: 0;
   color: #ffffff;
+  padding-left: 60px;
+  padding-top: 20px;
 }
 
 .progress-bar {
   display: flex;
+  justify-content: end;
   gap: 0.25rem;
+  padding-right: 30px;
 }
 
 .progress-item {
@@ -805,7 +809,7 @@ footer .links {
 
   /* footer mobile */
 
-  footer2 {
+  .footer2 {
     background: #ffffff;
     position: fixed;
     bottom: 0;
@@ -816,13 +820,13 @@ footer .links {
     align-items: center;
   }
 
-  footer2 .mobile-footer-menu {
+  .footer2 .mobile-footer-menu {
     display: table;
     margin: 0 auto;
     justify-content: space-around;
   }
 
-  footer2 .mobile-footer-menu .mobile-footer {
+  .footer2 .mobile-footer-menu .mobile-footer {
     width: 100%;
   }
 
@@ -908,11 +912,11 @@ footer .links {
 }
 
 @media screen and (min-width: 576px) {
-  header2 {
+  .header-small {
     display: none;
   }
 
-  footer2 {
+  .footer2 {
     display: none;
   }
 }
