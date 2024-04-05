@@ -22,7 +22,7 @@
       sizes="16x16"
       href="../images/logo/favicon-16x16.png"
     />
-        <title>Square Eyes - my account</title>
+        <title>Square Eyes - cart</title>
         <link rel="stylesheet" href="../src/css/styles.css">
       </head>
 <body>
@@ -30,14 +30,14 @@
         <div class="wrapper">
             <nav>
                 <div class="logo">
-                    <a href="../"><img src="../images/logo/squareeyesonlylogodeepred.png" alt="Square Eyes Logo"></a>
+                    <a href="index.html"><img src="../images/logo/squareeyesonlylogodeepred.png" alt="Square Eyes Logo"></a>
                 </div>
                 <div class="text-links">
                     <ul>
                         <li><a href="../">HOME</a></li>
-                        <li><a href="../films">FILMS</a></li>
-                        <li><a href="../about">ABOUT</a></li>
-                        <li><a href="../contact">CONTACT</a></li>
+                        <li><a href="../films/">FILMS</a></li>
+                        <li><a href="../about/">ABOUT</a></li>
+                        <li><a href="../contact/">CONTACT</a></li>
                         <li><a href="../bookmarks/">BOOKMARKS</a></li>
                     </ul>
                 </div>
@@ -55,9 +55,9 @@
                             />
                           </div>
                         </li>
-                        <li><a href="register.html" class="btn">CREATE ACCOUNT</a></li>
-                        <li><a href="login.html" class="btn">SIGN IN</a></li>
-                        <li><a href="../cart/"><span class="mdi--cart"></span></a></li> 
+                        <li><a href="../account/register.html" class="btn">CREATE ACCOUNT</a></li>
+                        <li><a href="../account/login.html" class="btn">SIGN IN</a></li>
+                        <li><span class="mdi--cart"></span></li>  
                     </ul>
                 </div>
             </nav>
@@ -70,7 +70,7 @@
                 <nav>
                     <a href="../account/myaccount.html"><span class="codicon--account"></span></a>
                     <div class="logo">
-                        <a href="../"><img src="../images/logo/squareeyesonlylogodeepred.png" alt="Square Eyes Logo"></a>
+                        <a href="../index.html"><img src="../images/logo/squareeyesonlylogodeepred.png" alt="Square Eyes Logo"></a>
                     </div>
                     <span class="material-symbols--cast-outline"></span>
                 </nav>
@@ -78,40 +78,40 @@
         </div>
     </div>
 
+<!-- My cart -->
 
-
-
-<!-- My Account -->
-
-
-<div class="myaccount-container">
-    <h1>MY ACCOUNT</h1>
-    <div class="myaccount">
-        <p>Name: Ola Nordmann
-        <br>Email: olanordmann@gmail.com</p>
-        <div class="switch-options">Download over mobile network:
-            <label class="switch">
-            <input type="checkbox">
-            <span class="myslider round"></span>
-        </div>
-        <div class="switch-options">Parents control:
-            <label class="switch">
-            <input type="checkbox">
-            <span class="myslider round"></span>
-        </div>
-        <div class="switch-options">Autoplay:
-            <label class="switch">
-            <input type="checkbox">
-            <span class="myslider round"></span>
-        </div>
-    </div>
-    </label>
+<div class="my-cart">
+    <h1>MY CART</h1>
+    <p>There are no items in your cart.</p>
 </div>
 
 
+<!-- Suggestion -->
 
-    
+<div class="suggestions"><h2>SUGGESTIONS</h2></div>
+
+<div class="bookmark-row">
+    <div class="bookmark-column">
+        <img src="../images/films/liggende/aliveliggende.jpg" alt="Alive">
+        <h3>ALIVE € 9.99</h3>
+    </div>
+    <div class="bookmark-column">
+        <img src="../images/films/liggende/amundsenliggende.jpg" alt="Amundsen">
+        <h3>AMUNDSEN € 9.99</h3>
+    </div> 
+    <div class="bookmark-column">
+        <img src="../images/films/liggende/clarksiiiliggende.jpg" alt="Clerks III">
+        <h3>CLERKS III € 9.99</h3>
+    </div>
+    <div class="bookmark-column">
+        <img src="../images/films/liggende/deadsnowliggende.jpg" alt="Dead Snow">
+        <h3>DEAD SNOW € 9.99</h3>
+    </div>
+</div>
+
+
 <!--Footer-->
+
 
 <footer>
     <div class="wrapper2">
@@ -122,7 +122,7 @@
                 <form action="#">
                     <h3>SIGN UP FOR OUR NEWSLETTER</h3>
                     <p>By registering for our newsletter, you'll be the first to receive the latest news, exclusive offers, information about contests, and much other fun stuff.</p>
-                    <input type="text" placeholder="Your email here">
+                    <input type="text" placeholder="Your email here" />
                     <button class="submit-btn">Subscribe</button>
                 </form>
             </div>
@@ -160,6 +160,8 @@
             <a href="../bookmarks/"><span class="material-symbols--bookmark-outline"></span></a>
         </div>
     </div>
-</div>  
+</div>
+
+    
 </body>
 </html>

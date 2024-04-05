@@ -586,7 +586,7 @@ footer .links {
 
 @media (max-width: 1450px) {
   header {
-    height: 5vh;
+    height: 8vh;
   }
 
   nav .logo {
@@ -1280,6 +1280,38 @@ textarea::placeholder {
   .bookmark-row .bookmark-column {
     flex: 100%;
     max-width: 100%;
+  }
+}
+
+/* Bookmarks */
+
+.my-cart {
+  margin-top: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.my-cart h1 {
+  font-size: 70px;
+  color: #fe0202;
+}
+
+.suggestions {
+  text-align: center;
+}
+
+.suggestions h2 {
+  font-size: 40px;
+  color: #fe0202;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .my-cart h1 {
+    font-size: 60px;
+  }
+  .suggestions h2 {
+    font-size: 30px;
   }
 }
 
