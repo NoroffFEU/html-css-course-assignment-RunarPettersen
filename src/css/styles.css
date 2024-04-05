@@ -958,13 +958,17 @@ footer .links {
 }
 
 .btn2 {
-  padding: 4px 16px;
+  width: 260px;
+  height: 40px;
   border-radius: 10px;
   color: #ffffff;
   background: #fe0202;
   display: inline-block;
   font-size: 24px;
   text-decoration: none;
+  text-align: center;
+  padding: 0px;
+  line-height: 40px;
 }
 
 .btn2:hover {
@@ -1866,10 +1870,12 @@ input:checked + .myslider:before {
   align-items: center;
   justify-content: center;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 
 .checkout-container a {
   color: #ffffff;
+  padding-bottom: 20px;
 }
 
 .checkout-container .register-form {
@@ -1907,6 +1913,9 @@ input:checked + .myslider:before {
 }
 
 .checkout-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 100%;
   margin: 0 auto;
   font: 500 100%/1.5 system-ui;
