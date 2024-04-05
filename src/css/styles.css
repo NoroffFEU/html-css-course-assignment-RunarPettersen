@@ -1891,6 +1891,11 @@ input:checked + .myslider:before {
   text-align: center;
 }
 
+.checkout-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
 .checkout-container .register-form input {
   width: 600px;
   border-color: #fe0202;
