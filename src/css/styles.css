@@ -740,7 +740,6 @@ footer .links {
 
   nav {
     display: grid;
-    grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
       "logo text-links"
@@ -774,6 +773,12 @@ footer .links {
 
   .slider > img {
     max-width: calc(150% / var(--items-per-screen));
+  }
+}
+
+@media (max-width: 740px) {
+  nav {
+    grid-template-columns: 120px 500px;
   }
 }
 
