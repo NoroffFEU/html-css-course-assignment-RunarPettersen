@@ -584,6 +584,26 @@ footer .links {
   font-size: 20px;
 }
 
+@media (max-width: 1660px) {
+  footer .links-container {
+    grid-template-columns: 1.1fr 2.2fr 1.6fr 1.8fr;
+    padding: 20px;
+  }
+  footer ul li > img {
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+    width: 40px;
+  }
+  .eyes img {
+    width: 180px;
+  }
+  .eyes {
+    padding-left: 20px;
+    width: 180px;
+  }
+}
+
 @media (max-width: 1450px) {
   header {
     height: 8vh;
@@ -662,10 +682,19 @@ footer .links {
   footer .links-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .eyes img {
-    width: 280px;
+    width: 260px;
+  }
+
+  footer ul li > img {
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+    width: 50px;
   }
 }
 
@@ -692,6 +721,11 @@ footer .links {
 
   .eyes {
     display: none;
+  }
+
+  footer .links-container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .logo {
@@ -1738,6 +1772,18 @@ input:checked + .myslider:before {
   margin: 10px;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .myaccount-container h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 380px) {
+  .myaccount-container h1 {
+    font-size: 40px;
+  }
 }
 
 /* Single Films */
