@@ -1369,7 +1369,7 @@ textarea::placeholder {
     flex: 100%;
     max-width: 100%;
   }
-  .material-symbols--bookmark-outline {
+  .ic--twotone-bookmark {
     width: 10vw;
     height: 10vw;
   }
