@@ -1,15 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
-  <link rel="stylesheet" href="src/css/styles.css">
-</head>
-<body class="centered">
-  <div>
-    <img src="/assets/images/noroff-logo.png" alt="Noroff Logo">
-    <h1>Hello World!</h1>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buy and stream the best movies money can buy. From hidden gems to the best blockbusters.">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/logo/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/logo/favicon-96x96.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/logo/favicon-16x16.png">
+    <title>Square Eyes</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="src/script/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <nav>
+          <div class="logo">
+            <a href="index.html"><img src="images/logo/squareeyesonlylogodeepred.png" alt="Square Eyes Logo"></a>
+          </div>
+          <div class="text-links">
+            <ul>
+              <li>HOME</li>
+              <li><a href="films/">FILMS</a></li>
+              <li><a href="about/">ABOUT</a></li>
+              <li><a href="contact/">CONTACT</a></li>
+              <li><a href="bookmarks/">BOOKMARKS</a></li>
+            </ul>
+          </div>
+          <div class="buttons-header">
+            <ul>
+              <li>
+                <div class="search-box">
+                  <button class="btn-search">
+                    <i class="material-symbols--search"></i>
+                  </button>
+                  <input type="text" class="input-search" placeholder="Search...">
+                </div>
+              </li>
+              <li><a href="account/register.html" class="btn">CREATE ACCOUNT</a></li>
+              <li><a href="account/login.html" class="btn">SIGN IN</a></li>
+              <li><a href="cart/"><span class="mdi--cart"></span></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="header-small">
+      <div class="mobile-menu">
+        <div class="mobile-header">
+          <nav>
+            <a href="account/myaccount.html"><span class="codicon--account"></span></a>
+            <div class="logo">
+              <a href="index.html"><img src="images/logo/squareeyesonlylogodeepred.png" alt="Square Eyes Logo"></a>
+            </div>
+            <span class="material-symbols--cast-outline"></span>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!--Main Slider-->
+
+    <div class="main-slider">
+      <div class="slide">
+        <div class="content">
+          <h1>JAWS</h1>
+          <p>
+            "Jaws" is a classic thriller film directed by Steven Spielberg. The
+            story is set in the fictional Amity Island, where a great white
+            shark terrorizes the community during the summer tourist season. As
+            the attacks escalate, Police Chief Martin Brody, marine biologist
+            Matt Hooper, and seasoned shark hunter Quint embark on a perilous
+            journey to capture and kill the deadly predator.
+          </p>
+          <a href="films/jaws.html" class="btn-slider">BUY €9.99</a>
+        </div>
+        <div class="gradient"></div>
+        <img src="images/films/hovedmeny/jawshoved.jpg" alt="Jaws">
+      </div>
+
+      <div class="slide">
+        <div class="content">
+          <h1>PEARL</h1>
+          <p>
+            “Pearl” is a 2022 American horror film directed by Ti West,
+            co-written by West and Mia Goth, who reprises her role as the title
+            character. A prequel to X (2022) and the second installment in the X
+            film series, it serves as an origin story for the title villain,
+            whose fervent aspiration to become a movie star led her to
+            committing violent acts on her family's Texas homestead in 1918.
+          </p>
+          <a href="films/pearl.html" class="btn-slider">BUY €9.99</a>
+        </div>
+        <div class="gradient"></div>
+        <img src="images/films/hovedmeny/pearl.jpg" alt="Pearl">
+      </div>
+
+      <div class="slide">
+        <div class="content">
+          <h1>RAIDERS OF THE LOST ARK</h1>
+          <p>
+            "Raiders of the Lost Ark" (1981) is an action-adventure film
+            directed by Steven Spielberg and produced by George Lucas. Set in
+            1936, the story follows the iconic archaeologist Indiana Jones,
+            played by Harrison Ford, as he embarks on a quest to find the
+            mystical Ark of the Covenant before the Nazis do. Indiana Jones film
+            series has become a landmark in popular culture.
+          </p>
+          <a href="films/raidersofthelostark.html" class="btn-slider">BUY €9.99</a>
+        </div>
+        <div class="gradient"></div>
+        <img src="images/films/hovedmeny/raidershoved.jpg" alt="Raiders of the Lost Ark">
+      </div>
+
+      <div class="slide">
+        <div class="content">
+          <h1>SUSPIRIA</h1>
+          <p>
+            "Suspiria" is a psychological horror film directed by Luca
+            Guadagnino. The story is set in Berlin in 1977 and follows Susie
+            Bannion, an ambitious young dancer from Ohio who joins the
+            prestigious Markos Tanz Company. Unbeknownst to Susie, the dance
+            academy is a front for a coven of witches. "Suspiria" is a
+            reimagining of Dario Argento's 1977 film of the same name.
+          </p>
+          <a href="films/suspiria.html" class="btn-slider">BUY €9.99</a>
+        </div>
+        <div class="gradient"></div>
+        <img src="images/films/hovedmeny/suspiria2018hoved.jpg" alt="Suspiria">
+      </div>
+
+      <div class="slide">
+        <div class="content">
+          <h1>THE THING</h1>
+          <p>
+            "The Thing" is a chilling science fiction horror film directed by John Carpenter.
+            Set in Antarctica, the story follows a group of American researchers who encounter
+            a shape-shifting extraterrestrial organism that can assimilate and mimic any living being.
+            As paranoia and suspicion spread among the crew, they struggle to determine who among them
+            may be infected by the creature. With no means of escape and trust eroding, the group faces
+            a desperate battle for survival against a relentless and terrifying enemy.
+          </p>
+          <a href="films/thething.html" class="btn-slider">BUY €9.99</a>
+        </div>
+        <div class="gradient"></div>
+        <img src="images/films/hovedmeny/thethinghoved.jpg" alt="The Thing">
+      </div>
+    </div>
+
+    <!--Ny karusell-->
+
+    <div class="row">
+      <div class="header2">
+        <h3 class="kategori">NEWS</h3>
+        <div class="progress-bar"></div>
+      </div>
+      <div class="container">
+        <div class="handle left-handle">
+          <div class="text">&#8249;</div>
+        </div>
+        <div class="slider">
+          <img src="images/films/liggende/aliveliggende.jpg" alt="Alive">
+          <img src="images/films/liggende/amundsenliggende.jpg" alt="Amundsen">
+          <img src="images/films/liggende/deadsnowliggende.jpg" alt="Dead Snow">
+          <img src="images/films/liggende/djangoliggende.jpg" alt="Django">
+          <img src="images/films/liggende/escapeliggende.jpg" alt="Escape">
+          <img src="images/films/liggende/jawsliggende.jpg" alt="Jaws">
+          <img src="images/films/liggende/ghostbustersliggende.jpg" alt="Ghost Busters">
+          <img src="images/films/liggende/ghostbusters2liggende.jpg" alt="Ghost Busters 2">
+          <img src="images/films/liggende/hamsunliggende.jpg" alt="Hamsun">
+          <img src="images/films/liggende/jokerliggende.jpg" alt="Joker">
+          <img src="images/films/liggende/kontikiliggende.jpg" alt="Kon Tiki">
+          <img src="images/films/liggende/lethalweapenliggende.jpg" alt="Leathal Weapon">
+        </div>
+        <div class="handle right-handle">
+          <div class="text">&#8250;</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="header2">
+        <h3 class="kategori">HORROR</h3>
+        <div class="progress-bar"></div>
+      </div>
+      <div class="container">
+        <div class="handle left-handle">
+          <div class="text">&#8249;</div>
+        </div>
+        <div class="slider">
+          <img
+            src="images/films/liggende/thethingliggende.jpg"
+            alt="The Thing">
+          <img
+            src="images/films/liggende/trollhunterliggende.jpg"
+            alt="Troll Hunter">
+          <img
+            src="images/films/liggende/deadsnowliggende.jpg"
+            alt="Dead Snow">
+          <img
+            src="images/films/liggende/suspirialiggende.jpg"
+            alt="Suspiria">
+          <img src="images/films/liggende/pearlliggende.jpg" alt="Pearl">
+          <img src="images/films/liggende/jawsliggende.jpg" alt="Jaws">
+          <img
+            src="images/films/liggende/ghostbustersliggende.jpg"
+            alt="Ghost Busters">
+          <img
+            src="images/films/liggende/ghostbusters2liggende.jpg"
+            alt="Ghost Busters 2">
+          <img src="images/films/liggende/smileliggende.jpg" alt="Smile">
+          <img
+            src="images/films/liggende/studio666liggende.jpg"
+            alt="Studio 666">
+          <img
+            src="images/films/liggende/screamviligende.jpg"
+            alt="Scream VI">
+          <img
+            src="images/films/liggende/lordsofchaosliggende.jpg"
+            alt="Lords of Chaos">
+        </div>
+        <div class="handle right-handle">
+          <div class="text">&#8250;</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="header2">
+        <h3 class="kategori">COMEDY</h3>
+        <div class="progress-bar"></div>
+      </div>
+      <div class="container">
+        <div class="handle left-handle">
+          <div class="text">&#8249;</div>
+        </div>
+        <div class="slider">
+          <img src="images/films/liggende/trollhunterliggende.jpg" alt="Troll Hunter">
+          <img
+            src="images/films/liggende/studio666liggende.jpg"
+            alt="Studio 666">
+          <img
+            src="images/films/liggende/dudewheresmycarliggende.jpg"
+            alt="Dude, Where's My Car">
+          <img
+            src="images/films/liggende/thenakedgunliggende.jpg"
+            alt="The Naked Gun">
+          <img
+            src="images/films/liggende/hotshotsliggende.jpg"
+            alt="Hot Shots">
+          <img src="images/films/liggende/hotfuzzliggende.jpg" alt="Hot Fuzz">
+          <img
+            src="images/films/liggende/ghostbustersliggende.jpg"
+            alt="Ghost Busters">
+          <img
+            src="images/films/liggende/ghostbusters2liggende.jpg"
+            alt="Ghost Busters 2">
+          <img
+            src="images/films/liggende/deadsnowliggende.jpg"
+            alt="Dead Snow">
+          <img
+            src="images/films/liggende/spaceballsliggende.jpg"
+            alt="Spaceballs">
+          <img
+            src="images/films/liggende/clarksiiiliggende.jpg"
+            alt="Clerks III">
+          <img
+            src="images/films/liggende/lethalweapenliggende.jpg"
+            alt="Leathal Weapon">
+        </div>
+        <div class="handle right-handle">
+          <div class="text">&#8250;</div>
+      </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="header2">
+        <h3 class="kategori">ACTION</h3>
+        <div class="progress-bar"></div>
+      </div>
+      <div class="container">
+        <div class="handle left-handle">
+          <div class="text">&#8249;</div>
+        </div>
+        <div class="slider">
+          <img
+            src="images/films/liggende/raidersofthelostark.jpg"
+            alt="Raiders of the Lost Ark">
+          <img src="images/films/liggende/roadhouse.jpg" alt="Roadhouse">
+          <img
+            src="images/films/liggende/thebatmanliggende.jpg"
+            alt="The Batman">
+          <img src="images/films/liggende/djangoliggende.jpg" alt="Django">
+          <img src="images/films/liggende/escapeliggende.jpg" alt="Escape">
+          <img
+            src="images/films/liggende/valhallaliggende.jpg"
+            alt="Valhalla">
+          <img
+            src="images/films/liggende/ghostbustersliggende.jpg"
+            alt="Ghostbusters">
+          <img
+            src="images/films/liggende/ghostbusters2liggende.jpg"
+            alt="Ghostbusters 2">
+          <img
+            src="images/films/liggende/papillonliggende.jpg"
+            alt="Papillon">
+          <img src="images/films/liggende/jokerliggende.jpg" alt="Joker">
+          <img src="images/films/liggende/kontikiliggende.jpg" alt="Kon Tiki">
+          <img
+            src="images/films/liggende/lethalweapenliggende.jpg"
+            alt="Lethal Weapon">
+        </div>
+        <div class="handle right-handle">
+          <div class="text">&#8250;</div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+      <div class="wrapper2">
+        <div class="links-container">
+          <div class="eyes">
+            <img
+              src="images/logo/squareeyesonlyglassesdarkred.png" alt="Square Eyes Logo">
+          </div>
+          <div class="newsletter">
+            <form action="subscription/index.html">
+              <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+              <p>
+                By registering for our newsletter, you'll be the first to
+                receive the latest news, exclusive offers, information about
+                contests, and much other fun stuff.
+              </p>
+              <input type="text" placeholder="Your email here">
+              <button class="submit-btn">Subscribe</button>
+            </form>
+          </div>
+          <div class="links">
+            <ul>
+              <li>
+                <img
+                  src="images/ikoner/iconmonstr-facebook.png"
+                  alt="Facebook"><a href="http://www.facebook.com">facebook.com/squareeyes</a>
+              </li>
+              <li>
+                <img
+                  src="images/ikoner/iconmonstr-instagram.png"
+                  alt="Instagram"><a href="http://www.instagram.com"
+                  >instagram.com/squareeyes</a>
+              </li>
+              <li>
+                <img
+                  src="images/ikoner/iconmonstr-youtube.png"
+                  alt="Instagram"><a href="http://www.youtube.com">youtube.com/squareeyes</a>
+              </li>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li>
+                <img
+                  src="images/ikoner/iconmonstr-gmail.png"
+                  alt="Mail">info@squareeyes.com
+              </li>
+              <li>
+                <img
+                  src="images/ikoner/iconmonstr-whatsapp.png"
+                  alt="Phone">(+47) 22 22 22
+              </li>
+              <li>
+                <img
+                  src="images/ikoner/location-icon.png"
+                  alt="Location">Sofies gate 5, 0170 Oslo, Norway
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="footer2">
+      <div class="mobile-footer-menu">
+        <div class="mobile-footer">
+          <a href="index.html"><span class="ion--home"></span></a>
+          <a href="search/"><span class="ic--twotone-search"></span></a>
+          <a href="films/"><span class="ion--film-outline"></span></a>
+          <a href="cart/"><span class="humbleicons--cart"></span></a>
+          <a href="bookmarks/"><span class="material-symbols--bookmark-outline"></span></a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
